@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "test:headed": "cypress run"
   }
 }
