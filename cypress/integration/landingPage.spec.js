@@ -20,7 +20,7 @@ describe('Landing Page', function () {
         cy.url().should('include', 'https://www.zuehlke.com/gb/en/solutions/')
     });
 
-    it.only('Search', () => {
+    it('Search', () => {
         cy.get('#mob-nav-toggler')
             .click()
             .get('#side-search > form > .main-search-input')
