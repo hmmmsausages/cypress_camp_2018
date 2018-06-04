@@ -1,0 +1,15 @@
+{
+  "name": "cypress_camp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.0.1"
+  },
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run"
+  }
+}
