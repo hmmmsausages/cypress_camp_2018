@@ -1,3 +1,9 @@
+# IntelliJ
 .idea/
-node_modules/
 *.iml
+
+# Node
+node_modules/
+
+# Cypress
+cypress/videos/
