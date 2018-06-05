@@ -5,7 +5,7 @@ describe('Landing Page', function () {
     });
 
     it('Opens landing page', () => {
-        cy.contains("The Future Face of Artificial Intelligence")
+        cy.contains("Join the conversation")
     });
 
     it('Navigate to some recent projects page', () => {
